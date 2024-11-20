@@ -328,13 +328,13 @@ nav .kanan {
         margin-top: 260px;
     }
     .hero img#bangunan{
-        transform: translateX(-560px);
-        top: 50vh;
+        transform: translateX(-580px);
+        top: 43vh;
         width: 800px;
     }
     .hero img#pohon{
-        transform: translateX(200px);
-        top: 50vh;
+        transform: translateX(180px);
+        top: 43vh;
         width: 800px;
     }
     .hero img#boltangki{
@@ -605,6 +605,7 @@ nav .kanan {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: var(--font-family1);
 }
 
 .sec-tri {
@@ -742,6 +743,7 @@ nav .kanan {
 .four{
     padding: 30px 40px;
     background-color: whitesmoke;
+    font-family: var(--font-family1);
 }
 
 .dashboard {
@@ -905,7 +907,7 @@ nav .kanan {
     border-radius: 10px;
     /* margin-top: 5%; */
     margin-bottom: 5%;
-    
+    font-family: var(--font-family1);
   }
   
   .sectiontwo-gallery-text {
@@ -1024,6 +1026,7 @@ nav .kanan {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: var(--font-family1);
 }
 #karya .top{
   display: flex;
