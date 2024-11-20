@@ -141,7 +141,7 @@ nav .kanan {
     }
 
     nav .title img{
-        width: 50px;
+        width: 60px;
     }
     nav {
         gap: 35px;
@@ -358,6 +358,7 @@ nav .kanan {
     top: 0;
     background-color: whitesmoke;
     overflow-y: hidden;
+    font-family: var(--font-family1);
 }
 
 .rain-container {
@@ -556,6 +557,12 @@ nav .kanan {
     .title_manfaat h3{
        font-size: 16px;
     }
+    .detail_circle{
+        gap: 30px;
+    }
+    .detail_circle2{
+        gap: 30px;
+    }
 }
 @media screen and (max-width: 680px) {
     .circle img{
@@ -601,7 +608,7 @@ nav .kanan {
 }
 
 .sec-tri {
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -702,6 +709,7 @@ nav .kanan {
         justify-content: center;
         padding: 12px 20px;
         margin: 32px 40px 32px 40px;
+        align-items: center;
     }
 
     #map {
@@ -720,7 +728,7 @@ nav .kanan {
         display: flex;
         flex-direction: column;
         width: 180px;
-        margin-left: 60px;
+        /* margin-left: 60px; */
     }
 
     .tri p,h1{
@@ -915,7 +923,7 @@ nav .kanan {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
   
   .sectiontwo-gallery-img img{
